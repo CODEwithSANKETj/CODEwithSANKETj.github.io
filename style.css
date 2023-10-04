@@ -115,10 +115,10 @@ font-size: 40px;
     font-size: 38px;
 }
 #photo{
-    width: 40%;
+    width: 50%;
     height: 300px;
     /* border: 1px solid grey ; */
-    margin-top: 12%;
+    margin-top: 1%;
     margin-left: 10%;
     border-radius: 5px;
 }
