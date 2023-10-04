@@ -8,14 +8,14 @@
 
 function redirec(){
 
-window.open("https://drive.google.com/file/d/14cpb-yIeYybLQTfq981lfUEBUu_N8i17/view?usp=share_link","blank")
+window.open("https://drive.google.com/file/d/1O-IcFxdaHQi_mR168N1IuKtdLxVEmhCv/view?usp=sharing","blank")
 
 }
 
 // resume button 
 
 
-GitHubCalendar(".calendar", "jaysukla", { responsive: true });
+GitHubCalendar(".calendar", "CODEwithSANKETj", { responsive: true });
 
 
 
