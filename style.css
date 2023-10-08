@@ -159,7 +159,7 @@ font-size: 40px;
     width: 65%;
     margin-left: 20%;
     margin-top: 5%;
-    font-size: x-large;
+    font-size: 20px;
 }
 #Art{
     font-size:x-large ;
@@ -181,6 +181,15 @@ font-size: 40px;
     margin: auto;
     display: flex;
   text-align: center;
+}
+.skills-card{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.skills-card >img{
+    margin-top: 10px;
+    align-content: center;
 }
 
 #SK{
@@ -254,7 +263,47 @@ margin: auto;
 
 #Card{
     border-radius: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
+.project-tech-stack {
+    font-weight: bold;
+}
+.project-github-link,
+.project-deployed-link {
+    /* Your common styles for both links go here */
+    text-decoration: none; /* Removes underline from the links */
+    margin-right: 10px; /* Add some spacing between the links if needed */
+    font-weight: bold; /* Makes the text bold */
+    color: #333; /* Sets the text color to a dark gray */
+    background-color: #f0f0f0; /* Sets the background color */
+    padding: 5px 10px; /* Adds padding to the buttons */
+    border: 1px solid #333; /* Adds a border to the buttons */
+    border-radius: 5px; /* Rounds the corners of the buttons */
+    display: inline-block; /* Ensure that the links behave like inline-block elements */
+}
+
+.project-github-link:hover,
+.project-deployed-link:hover {
+    /* Your hover styles for both links go here */
+    background-color: #333; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.project-github-link button,
+.project-deployed-link button {
+    /* Your styles for the button inside the links go here */
+    border: none;
+}
+
+.project-github-link:hover button,
+.project-deployed-link:hover button {
+    /* Your hover styles for the button inside the links go here */
+    background-color: #333;
+    color: #fff;
+}
+
+
 #Github{
     width: 100%;
     /* border: 1px solid grey; */
