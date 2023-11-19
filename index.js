@@ -8,7 +8,7 @@
 
 function redirec(){
 
-window.open("https://drive.google.com/file/d/1O-IcFxdaHQi_mR168N1IuKtdLxVEmhCv/view?usp=sharing","blank")
+window.open("https://drive.google.com/file/d/1JVuvORmDyOGplWQ7qEV_QaBeYlyWnXwA/view?usp=sharing","blank")
 
 }
 
@@ -16,6 +16,27 @@ window.open("https://drive.google.com/file/d/1O-IcFxdaHQi_mR168N1IuKtdLxVEmhCv/v
 
 
 GitHubCalendar(".calendar", "CODEwithSANKETj", { responsive: true });
+
+// Smooth scroll function
+function smoothScroll(targetId) {
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      const offsetTop = targetElement.offsetTop - document.querySelector('#nav-menu').offsetHeight;
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  }
+  
+  
+  document.querySelectorAll('.topnav a').forEach((link) => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute('href').substring(1); 
+      smoothScroll(targetId);
+    });
+  })
 
 
 
