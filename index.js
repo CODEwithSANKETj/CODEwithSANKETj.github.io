@@ -8,7 +8,7 @@
 
 function redirec(){
 
-window.open("https://drive.google.com/file/d/1JVuvORmDyOGplWQ7qEV_QaBeYlyWnXwA/view?usp=sharing","blank")
+window.open("https://drive.google.com/file/d/1TZ4F4v5LmUfGMo3S1Wsok3cTr1Xeovdr/view?usp=sharing","blank")
 
 }
 
@@ -37,6 +37,8 @@ function smoothScroll(targetId) {
       smoothScroll(targetId);
     });
   })
+
+  
 
 
 

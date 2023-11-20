@@ -14,59 +14,27 @@
     
 </head>
 <body>   
-<div class="mobile-container">
-
+    
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container" id="small_screen">
     <!-- Top Navigation Menu -->
-    <div class="topnav">
+    
+    <div class="topnav" id="myTopnav">
       <a href="#nav-link home" class="active">Portfolio</a>
       <div id="myLinks">
-        <a href="#nav-link home"  >Home</a>
+        <a href="#nav-link home">Home</a>
         <a href="#nav-link about">About</a>
-        <a  href="#nav-link skills">Skills</a>
+        <a href="#nav-link skills">Skills</a>
         <a href="#nav-link projects">Projects</a>
         <a href="#nav-link contact">Contact</a>
-       <a  class="nav-link resume" id="resume-link-1" href=""
-            target="_blank"  download="">Resume</a>  
+        <a class="nav-link resume" id="resume-link-1" href="" target="_blank" download="">Resume</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
-    
-    
-    
     <!-- End smartphone / tablet look -->
- </div>
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanket_Jaiswal_Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-
-   
-    
-</head>
-<body>   
-    
-<!-- Simulate a smartphone / tablet -->
-
+  </div>
 
 
     
@@ -107,7 +75,7 @@
                   
 
 </div>
-    </div>
+</div>
 <!-- navbar ends here  -->
  
 
@@ -135,7 +103,7 @@
             </div>
             <div id="hr">
                 <div id="photo">
-                    <img  class="home-img" src="./sanket.png" alt="Screenshot-2022-12-22-143719-3" border="0">
+                    <img  class="home-img" src="./sanket.jpeg" alt="Screenshot-2022-12-22-143719-3" border="0">
                 </div>
             </div>
         </div>
@@ -196,7 +164,7 @@
     <div class="skills-card"><img class="skills-card-img" src="./node-js.png" alt=""> <p  class="skills-card-name">Node-js</p> </div>
     <div class="skills-card" ><img class="skills-card-img" src="./pngegg.png" alt=""> <p  class="skills-card-name">Websockets</p></div>
     <div class="skills-card"><img class="skills-card-img" src="./express.png" alt=""> <p  class="skills-card-name">Express</p></div>
-
+    <div class="skills-card"><img class="skills-card-img" src="./python.png" alt=""> <p  class="skills-card-name">Python</p></div>
 </div>
 
 </div>
@@ -208,22 +176,17 @@
     
     
     <div id="SK" >
-   
-        <div class="skills-card">
-            <img class="skills-card-img" src="./python.png" alt=""> 
-            <p  class="skills-card-name">Python</p>
-         </div>
      
         <div class="skills-card"><img class="skills-card-img" src="./mongodb.png" alt=""> <p  class="skills-card-name">MongoDB</p></div>
         <div class="skills-card" ><img class="skills-card-img" src="./vs.png" alt=""> <p  class="skills-card-name">VS Code</p></div>
         <div class="skills-card" ><img class="skills-card-img" src="./pngwing.com.png" alt=""> <p  class="skills-card-name">Git</p></div>
-       
+         
     
     </div>
     
-    </div>
+</div>
 
-</section> 
+</section>
 <section   id="nav-link projects"  class="nav-link projects">
 <div id="projects" >
 <div id="pt"><h1>Projects</h1></div>
@@ -331,12 +294,7 @@
 <!-- <div id="colorgit">
 <img class="react-activity-calendar" src="./gihubco.png" alt="">
 </div> -->
-<section class="react-activity-calendar"> 
-<div class="calendar" >
-    <!-- Loading stuff -->
-    Loading the data just for you.
-  </div>
-</section>
+
 </div>
 
 <section class="nav-link contact" id="nav-link contact">
@@ -378,23 +336,12 @@
             </path>
           </svg></a> <a href="https://www.linkedin.com/in/sanket244/"> linkedin Profile</a>
     </div>
-    
-    
-    
-
     </div>
    
+    
 
 
 </div>
-<iframe
-  src="https://github.com/users/CODEwithSANKETj/contributions"
-  title="GitHub Contribution Chart"
-  width="600" height="200"
-  scrolling="no"
-  frameborder="0"
-  style="border: none;">
-</iframe>
 
 
   
@@ -411,7 +358,7 @@ backSpeed:100,
 loop:true
 })
 
-
+GitHubCalendar(".calendar", "CODEwithSANKETj", { responsive: true })
 
 
 

@@ -183,6 +183,7 @@ font-size: 40px;
 .skills-card{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    
 }
 
 .skills-card >img{
@@ -264,7 +265,7 @@ margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: auto;
 }
 .project-details {
     flex-grow: 1;
@@ -464,8 +465,9 @@ font-size: 30px;
     }
 
     #photo{
-        width: 45%;
-        height: 300px;
+        width: 25%;
+        height: auto;
+      
         /* border: 1px solid grey ; */
         margin: auto;
         /* margin-top: 25px ; */
@@ -554,9 +556,10 @@ font-size: 30px;
 
 #photo{
     width: 40%;
-    height: 200px;
+    height: auto;
     /* border: 1px solid grey ; */
     margin: auto;
+    margin-bottom: 15px;
     /* margin-top: 25px ; */
     
   
@@ -616,6 +619,7 @@ height: auto;
 }
 #photo{
 width: 60%;
+height: auto;
 
 }
 
@@ -711,7 +715,7 @@ width: 60%;
 
   }
   
-  .topnav a:hover {
+  #myLinks :hover {
     background-color: #ddd;
     color: black;
   }
@@ -720,5 +724,31 @@ width: 60%;
     /* background-color: #04AA6D; */
     color: white;
   }
+  /* Add these styles to your CSS */
+.menu-icon-wrapper {
+    display: inline-block;
+    cursor: pointer;
+    color: white; /* Icon color */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-right: 10px; /* Add some space between the icon and other elements */
+  }
+  
+  .fa-bars {
+    
+   
+    color: #ffffff;
+    
+  }
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 100;
+    color: aliceblue;
+    width: 24px; /* Set the width to the desired size */
+    height: 24px; /* Set the height to the desired size */
+  }
+  
+  
 
-  /* hamburger menu css end  */
