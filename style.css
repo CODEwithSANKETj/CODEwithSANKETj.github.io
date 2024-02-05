@@ -82,6 +82,7 @@ margin-top: 10%;
 
     width: 45%;
     height: 100%;
+    padding-top: 60px;
     /* border: 1px solid grey; */
 
 }
@@ -107,7 +108,10 @@ font-size: 40px;
 
 
 }
+#bsi{
+    width: 600px;
 
+}
 
 #bsi>p{
     font-size: 38px;
@@ -120,7 +124,6 @@ font-size: 40px;
     margin-left: 10%;
     border-radius: 5px;
 }
-
 
 
 #ABOUT{
@@ -139,6 +142,7 @@ font-size: 40px;
 }
 #Ar{
     width: 55%;
+    padding-top: 30px;
     /* border: 1px solid grey; */
 }
 #Abi{
@@ -172,6 +176,7 @@ font-size: 40px;
 #Skills{
 
     width: 100%;
+    padding-top: 50px;
 
 }
 #sk{
@@ -224,8 +229,10 @@ text-align: center;
 #PROJECTS{
     width: 100%;
     background-color: #1a202c;
+   
     /* padding: 20px; */
 }
+
 #pt{
     width: 20%;
     text-align: center;
@@ -235,6 +242,7 @@ text-align: center;
     width: 65%;
     /* border: 1px solid grey; */
     margin: auto;
+   
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px
@@ -752,3 +760,4 @@ height: auto;
   
   
 
+ 
